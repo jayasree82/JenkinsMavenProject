@@ -1,0 +1,1 @@
+ 2javaXhr=src/test/java/com/jaya/training/jenkins5/JenkinsCalcTest.java

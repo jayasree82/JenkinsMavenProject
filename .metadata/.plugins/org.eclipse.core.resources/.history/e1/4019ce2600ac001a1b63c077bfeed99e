@@ -1,0 +1,23 @@
+package com.jaya.training.jenkins2;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class jenkins2CalcTest {
+
+	@Test
+	public void addTest(){
+		JenkinsCalculator2 myCalc = new JenkinsCalculator2();
+		assertEquals(10,myCalc.addNumbers(5,5));
+		}
+
+	@Test
+	public void suntractTest(){
+		JenkinsCalculator2 myCalc = new JenkinsCalculator2();
+		assertEquals(5,myCalc.subtractNumbers(10,5));
+		}
+
+	
+	
+}
